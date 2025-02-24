@@ -13,7 +13,7 @@ import {
 
 function SideBar() {
 return (
-    <div className="fixed w-16 h-screen top-0 left-0 p-2 flex flex-col bg-white shadow-2x">
+    <div className="fixed w-16 h-screen top-0 left-0 p-2 flex flex-col bg-white shadow-xl">
         {/*top*/}
         <div className='flex flex-col'>
             <SideBarIcon icon={<img src={appIcon} alt="app icon"/>} />
